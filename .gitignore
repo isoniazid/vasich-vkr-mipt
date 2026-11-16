@@ -1,0 +1,27 @@
+# Данные и результаты не хранятся в репозитории: снимки лежат на Google Диске, результаты — в артефактах прогона
+data/
+results/
+*.zip
+*.tif
+*.tiff
+*.npz
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.docx
+*.doc
+*.pptx
+
+# Python и Jupyter
+__pycache__/
+*.pyc
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Системные
+.DS_Store
+Thumbs.db
+desktop.ini
